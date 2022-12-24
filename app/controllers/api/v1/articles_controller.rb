@@ -13,11 +13,6 @@ class Api::V1::ArticlesController < ApplicationController
     render json: @spiders
   end
 
-  # GET /articles/1
-  def show
-    render json: @article
-  end
-
   # POST /articles
   def create
     @article = Article.new(article_params)
@@ -27,20 +22,6 @@ class Api::V1::ArticlesController < ApplicationController
     else
       render json: @article.errors, status: :unprocessable_entity
     end
-  end
-
-  # PATCH/PUT /articles/1
-  def update
-    if @article.update(article_params)
-      render json: @article
-    else
-      render json: @article.errors, status: :unprocessable_entity
-    end
-  end
-
-  # DELETE /articles/1
-  def destroy
-    @article.destroy
   end
 
   private
