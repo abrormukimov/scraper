@@ -9,7 +9,7 @@ class Api::V1::ArticlesController < ApplicationController
   end
 
   def scrape
-    @spiders = HeadlineSpider.process("https://www.smashingmagazine.com/articles/", 5)
+    @spiders = HeadlineSpider.process("https://www.smashingmagazine.com/articles/", 1)
     render json: @spiders
   end
 

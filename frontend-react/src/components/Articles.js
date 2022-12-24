@@ -23,7 +23,6 @@ function Articles(props) {
             <div className="rows" key={headline.id}>
               <div className="column-head">
                 <a href={props.base_url + headline.url} target="_blank" rel="noreferrer">{headline.headline}</a>
-                
               </div>
               <div className="column-date">
                 {headline.published_at}

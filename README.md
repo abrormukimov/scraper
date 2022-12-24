@@ -12,11 +12,9 @@ This app allows you to fetch data from a smashing magazine website. It stores th
 **To run frontend locally:**
 
 - Type `cd frontend-react` in your terminal and run `npm run start` and press `y` to run in a different port 
-  `npx create-react-app .`
 
 ### Built With
 
-  *Major languages and frameworks* 
   -  **React**
   -  **Ruby on Rails**
    
@@ -25,7 +23,7 @@ This app allows you to fetch data from a smashing magazine website. It stores th
    - **Git**
    - **Vscode**
 
-## 🧑 Author
+## Author
 
 - Github: [Abror](https://github.com/abrormukimov)
 
