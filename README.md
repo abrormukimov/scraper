@@ -7,7 +7,7 @@ This app allows you to fetch data from a smashing magazine website. It stores th
 
 - Clone the repository locally. Run `git clone git@github.com:abrormukimov/scraper.git`
 - Navigate to the app folder `cd head_spider`
-- Run `rails db:create`, `rails db:migrate`, `bundle install`, `rails server`
+- Run `gem install bundler`, `bundle install`, `rails db:create`, `rails db:migrate`, `rails server`
 
 **To run frontend locally:**
 
